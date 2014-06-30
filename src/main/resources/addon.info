@@ -1,0 +1,16 @@
+{
+    // The internal id for our addon, should usually be lowercase and contain no spaces
+    "identifier": "exampleaddon",
+
+    // The proper name of our addon. This may include uppercase characters and spaces
+    "name": "Example Addon",
+
+    // The version of our addon
+    "version": "1.0.0-SNAPSHOT",
+
+    // The main class of our addon, it will almost always be the class that extends Addon
+    "main": "com.example.exampleaddon.ExampleAddon",
+
+    // Specify if this should run on the CLIENT, SERVER or BOTH
+    "mode": "BOTH"
+}

@@ -1,0 +1,10 @@
+// Specify the tasks to use when you run 'gradle'
+defaultTasks 'clean', 'build'
+
+// Apply the gradle file from obsidianbox.org
+apply from: 'http://obsidianbox.org/build/1.7.10-10.13.0.1152.gradle'
+
+// Basic project information
+group = 'com.example.exampleaddon'
+archivesBaseName = 'exampleaddon'
+version = '1.0.0-SNAPSHOT'
